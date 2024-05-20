@@ -38,7 +38,7 @@ module.exports = {
         link: 'https://www.vandyketravelblog.com/',
       },
       {
-        name: 'Dumb Meme Generator',
+        name: 'Meme Generator',
         description: 'Input description, get a meme!',
         link: 'https://dumb-meme.herokuapp.com/',
       },
