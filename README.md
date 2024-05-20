@@ -1,5 +1,7 @@
 # Andrew Van Dyke's Portfolio
 
+[See my portfolio here](https://www.vandykeportfolio.com)
+
 This is my personal portfolio and blog site, showcasing my projects, experience, and skills. The site is built using the [Devfolio](https://github.com/RyanFitzgerald/devfolio) template, which is a modern and production-ready personal portfolio and blog template built on GatsbyJS and styled with TailwindCSS.
 
 ## About Me
