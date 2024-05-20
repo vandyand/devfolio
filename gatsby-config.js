@@ -2,28 +2,28 @@ module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
     siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
-    
+
     // Your Name
     name: 'Andrew Van Dyke',
-    
+
     // Main Site Title
     title: `Andrew Van Dyke | Engineer & Developer`,
-    
+
     // Description that goes under your name in main bio
     description: `Highly adaptable and experienced Engineer with a rich background in software development and robotics engineering.`,
-    
+
     // Optional: Twitter account handle
     author: `@eggbirdeggbird`,
-    
+
     // Optional: Github account URL
     github: `https://vandyand.github.io`,
-    
+
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/vandyand/`,
-    
+
     // Content of the About Me section
     about: `Highly adaptable and experienced Engineer with a rich background in software development and robotics engineering. Proficient in developing complex software solutions and automation systems across various industries, including technology, manufacturing, and finance.`,
-    
+
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
@@ -34,18 +34,16 @@ module.exports = {
       },
       {
         name: 'Van Dyke Travel Blog',
-        description:
-          'We had fun exploring the south and west last winter :)',
+        description: 'We had fun exploring the south and west last winter :)',
         link: 'https://www.vandyketravelblog.com/',
       },
       {
         name: 'Dumb Meme Generator',
-        description:
-          'Input description, get a meme!',
+        description: 'Input description, get a meme!',
         link: 'https://dumb-meme.herokuapp.com/',
       },
     ],
-    
+
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
@@ -69,7 +67,7 @@ module.exports = {
         link: '',
       },
     ],
-    
+
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {
@@ -86,7 +84,7 @@ module.exports = {
       },
     ],
   },
-  
+
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
@@ -94,13 +92,6 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content/blog`,
-        name: `blog`,
       },
     },
     {
