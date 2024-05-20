@@ -12,7 +12,7 @@ Here are some of the projects I've worked on:
 
 - **[Forex Trading Algorithm](https://github.com/vandyand/clojure-trader)**: Designed and developed a sophisticated forex trading algorithm leveraging genetic algorithms and CUDA to optimize financial trading strategies.
 - **[Van Dyke Travel Blog](https://www.vandyketravelblog.com/)**: We had fun exploring the south and west last winter :)
-- **[Dumb Meme Generator](https://dumb-meme.herokuapp.com/)**: Input description, get a meme!
+- **[Meme Generator](https://dumb-meme.herokuapp.com/)**: Input description, get a meme!
 
 ## Experience
 
