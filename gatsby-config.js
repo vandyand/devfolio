@@ -2,77 +2,91 @@ module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
     siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
+    
     // Your Name
-    name: 'Ryan Fitzgerald',
+    name: 'Andrew Van Dyke',
+    
     // Main Site Title
-    title: `Ryan Fitzgerald | Full-Stack Developer`,
+    title: `Andrew Van Dyke | Engineer & Developer`,
+    
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `Highly adaptable and experienced Engineer with a rich background in software development and robotics engineering.`,
+    
     // Optional: Twitter account handle
-    author: `@rfitzio`,
+    author: `@eggbirdeggbird`,
+    
     // Optional: Github account URL
-    github: `https://github.com/ryanfitzgerald`,
+    github: `https://vandyand.github.io`,
+    
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
+    linkedin: `https://www.linkedin.com/in/vandyand/`,
+    
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `Highly adaptable and experienced Engineer with a rich background in software development and robotics engineering. Proficient in developing complex software solutions and automation systems across various industries, including technology, manufacturing, and finance.`,
+    
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Devfolio',
+        name: 'Forex Trading Algorithm',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'Designed and developed a sophisticated forex trading algorithm leveraging genetic algorithms and CUDA to optimize financial trading strategies.',
+        link: 'https://github.com/vandyand/clojure-trader',
       },
       {
-        name: 'ChromeExtensionKit',
+        name: 'Van Dyke Travel Blog',
         description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
+          'We had fun exploring the south and west last winter :)',
+        link: 'https://www.vandyketravelblog.com/',
       },
       {
-        name: 'Another Cool Project',
+        name: 'Dumb Meme Generator',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'Input description, get a meme!',
+        link: 'https://dumb-meme.herokuapp.com/',
       },
     ],
+    
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Creative Machining Inc.',
+        description: 'Contract Robotics Engineer, Present',
+        link: '',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'TeamGantt',
+        description: 'Software Engineer, April 2020 - December 2023',
+        link: '',
       },
       {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Edge Robotics & Automation',
+        description: 'Controls Engineer II, January 2019 - April 2020',
+        link: '',
+      },
+      {
+        name: 'Altron Automation',
+        description: 'Controls Engineer, April 2016 - September 2017',
+        link: '',
       },
     ],
+    
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {
-        name: 'Languages & Frameworks',
-        description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+        name: 'Programming Languages',
+        description: 'Bash, Python, JavaScript, PHP, Clojure',
       },
       {
-        name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        name: 'Frameworks/Technologies',
+        description: 'React, Redux, TypeScript, Laravel, GitHub',
       },
       {
-        name: 'Other',
-        description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+        name: 'Engineering',
+        description: 'Robotics, Automation, PLC Programming, Design',
       },
     ],
   },
+  
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
