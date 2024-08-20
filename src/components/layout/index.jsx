@@ -42,6 +42,26 @@ const Layout = ({ children }) => {
         />
       </svg>
       <div className={classes.wrapper}>{children}</div>
+      <footer className="bg-gray-200 text-center py-4 mt-8 absolute bottom-0 w-full">
+        <a
+          href="https://buymeacoffee.com/vandyand"
+          className="text-blue-500 hover:underline mx-2"
+        >
+          <i className="fas fa-coffee"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/vandyand/"
+          className="text-blue-500 hover:underline mx-2"
+        >
+          <i className="fab fa-linkedin"></i>
+        </a>
+        <a
+          href="https://github.com/vandyand"
+          className="text-blue-500 hover:underline mx-2"
+        >
+          <i className="fab fa-github"></i>
+        </a>
+      </footer>
     </div>
   );
 };
