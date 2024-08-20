@@ -2,12 +2,13 @@ import { Link } from 'gatsby';
 import get from 'lodash/get';
 import React from 'react';
 
-import profileImg from '../../images/profile.jpg';
+import profileImg from '../../images/andrew_van_dyke_small.jpg';
 
 const classes = {
   wrapper: 'block mb-6 md:flex',
-  imageWrapper: 'w-full max-w-150',
-  image: 'rounded-full transform transition-all duration-150 hover:scale-105',
+  imageWrapper: 'w-full max-w-150 flex justify-center items-center',
+  image:
+    'rounded-full w-32 h-32 object-cover transform transition-all duration-150 hover:scale-110',
   contentWrapper: 'flex-none pt-6 md:pt-1 md:flex-1 md:pl-20',
   name: 'text-5xl text-gray-900 font-bold leading-tight hover:text-black',
   description: 'text-gray-600',
