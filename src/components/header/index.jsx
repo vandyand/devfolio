@@ -20,6 +20,7 @@ const classes = {
 
 const Header = ({ metadata = {}, noBlog = false }) => {
   const twitter = get(metadata, 'author', false);
+  const email = get(metadata, 'email', false);
   const github = get(metadata, 'github', false);
   const linkedin = get(metadata, 'linkedin', false);
 
@@ -36,6 +37,13 @@ const Header = ({ metadata = {}, noBlog = false }) => {
         </h1>
         <p className={classes.description}>{metadata.description}</p>
         <ul className={classes.list}>
+          {email && (
+            <li className={classes.item}>
+              <a className={classes.link} href={'mailto:' + email}>
+                {email}
+              </a>
+            </li>
+          )}
           {twitter && (
             <li className={classes.item}>
               <a
