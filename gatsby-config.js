@@ -15,7 +15,7 @@ module.exports = {
     email: `vandyand@gmail.com`,
 
     // Optional: Github account URL
-    github: `https://vandyand.github.io`,
+    github: `https://github.com/vandyand`,
 
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/vandyand/`,
