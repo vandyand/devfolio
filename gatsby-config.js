@@ -49,6 +49,12 @@ module.exports = {
         link: 'https://github.com/vandyand/clojure-trader',
       },
       {
+        name: 'Kikker Stickers Website',
+        description:
+          "Built and hosted a simple ecommerce website with snipcart integration for my friend's decal sticker business.",
+        link: 'https://kikkerstickers.com/',
+      },
+      {
         name: 'Van Dyke Travel Blog',
         description:
           'Our family had fun exploring the south and west during winter 2023-2024',
