@@ -27,16 +27,16 @@ module.exports = {
     skills: [
       {
         name: 'Programming Languages',
-        description: 'Javascript, Python, PHP, Clojure',
+        description: 'Typescript, Python, PHP, Clojure',
       },
       {
         name: 'Frameworks/Technologies',
-        description: 'React, Redux, TypeScript, Laravel, GitHub',
+        description: 'React, Laravel, GitHub',
       },
       {
         name: 'Engineering',
         description:
-          'Software, Database, Robotics, Automation, PLC Programming, Design',
+          'Software, Rest API, Machine Learning, Data, Robotics, Automation, PLC, Controls Design',
       },
     ],
 
