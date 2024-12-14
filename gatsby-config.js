@@ -70,15 +70,15 @@ module.exports = {
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Self employed',
+        name: 'Controls Engineer II',
         description:
-          'Vandyke Automation, LLC - My own business where I do contract controls and software engineering work.',
-        link: 'https://www.vandykeautomation.com/',
+          'Extol Inc. - 2024 (present), Working on electrical design and PLC and Robotics programming for plastic welding manufacturing processes.',
+        link: 'https://www.extolinc.com/',
       },
       {
         name: 'Full stack | Front end web developer',
         description:
-          'TeamGantt - 2020 to 2023, Worked implementing features and bug fixes in Typescript, React and PHP.',
+          'TeamGantt - 2020 to 2023, Worked implementing frontend features and fixes in Typescript (React) in addition to backend PHP REST API development (Laravel).',
         link: 'https://www.teamgantt.com/',
       },
       {
