@@ -44,31 +44,31 @@ module.exports = {
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Personal Finance Dashboard',
+        name: 'Personal Finance Dashboard - React/TypeScript, PHP Laravel',
         description:
           'A full-stack fintech application built with React/TypeScript frontend and PHP Laravel backend. Features include user authentication, interactive financial dashboard, transaction management, budget planning, and investment portfolio tracking. Built with Material UI and Chart.js for data visualization.',
         link: 'https://fintecfun-frontend-a0753a40ce39.herokuapp.com',
       },
       {
-        name: 'Forex Trading Algorithm',
+        name: 'Forex Trading Algorithm - Clojure',
         description:
           'Designed and developed a sophisticated forex trading algorithm leveraging genetic algorithms and CUDA to optimize financial trading strategies.',
         link: 'https://github.com/vandyand/clojure-trader',
       },
       {
-        name: 'Kikker Stickers Website',
+        name: 'Kikker Stickers Website - Vanilla HTML/CSS/JS',
         description:
           "Built and hosted a simple ecommerce website with snipcart integration for my friend's decal sticker business.",
         link: 'https://kikkerstickers.com/',
       },
       {
-        name: 'Van Dyke Travel Blog',
+        name: 'Van Dyke Travel Blog - Vanilla HTML/CSS/JS',
         description:
           'Our family had fun exploring the south and west during winter 2023-2024',
         link: 'https://www.vandyketravelblog.com/',
       },
       {
-        name: 'Meme Generator',
+        name: 'Meme Generator - Vanilla HTML/CSS/JS',
         description: 'Input description, get a meme!',
         link: 'https://dumb-meme.herokuapp.com/',
       },
