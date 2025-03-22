@@ -10,21 +10,41 @@ Highly adaptable and experienced Engineer with a rich background in software dev
 
 ## Proficiencies
 
-- **Programming Languages**: Javascript, Python, PHP, Clojure
-- **Frameworks/Technologies**: React, Redux, TypeScript, Laravel, GitHub
-- **Engineering**: Software, Robotics, Automation, PLC Programming, Design
+- **Programming Languages**: TypeScript, Python, PHP, Clojure
+- **Frameworks/Technologies**: React, Laravel, Material UI, PostgreSQL, Heroku, Vercel
+- **Engineering**: Software, Rest API, Machine Learning, Data, Robotics, Automation, PLC, Design
 
 ## Projects
 
 Here are some of the projects I've worked on:
 
+- **[Personal Finance Dashboard](https://fintecfun-frontend-a0753a40ce39.herokuapp.com)**: A full-stack fintech application built with React/TypeScript frontend and PHP Laravel backend. Features include user authentication, interactive financial dashboard, transaction management, budget planning, and investment portfolio tracking.
 - **[Forex Trading Algorithm](https://github.com/vandyand/clojure-trader)**: Designed and developed a sophisticated forex trading algorithm leveraging genetic algorithms and CUDA to optimize financial trading strategies.
 - **[Van Dyke Travel Blog](https://www.vandyketravelblog.com/)**: Our family had fun exploring the south and west winter 2023-2024
 - **[Meme Generator](https://dumb-meme.herokuapp.com/)**: Input description, get a meme!
 
 ## Experience
 
-- **VanDyke Automation**: Contract Robotics Engineer, Owner
-- **TeamGantt**: Software Engineer, April 2020 - December 2023
-- **Edge Robotics & Automation**: Controls Engineer II, January 2019 - April 2020
-- **Altron Automation**: Controls Engineer, April 2016 - September 2017
+- **Extol Inc.**: Controls Engineer II, 2024 (present)
+- **TeamGantt**: Full Stack Developer, 2020-2023
+- **Altron Automation**: Controls Engineer, 2016-2020
+
+## Development
+
+To run this portfolio locally:
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run develop
+
+# Build for production
+npm run build
+
+# Serve production build
+npm run serve
+```
+
+The site is deployed on Vercel and automatically updates when changes are pushed to the main branch.

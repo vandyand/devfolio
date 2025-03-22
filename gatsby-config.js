@@ -27,21 +27,28 @@ module.exports = {
     skills: [
       {
         name: 'Programming Languages',
-        description: 'Typescript, Python, PHP, Clojure',
+        description: 'TypeScript, PHP, Python, Clojure',
       },
       {
         name: 'Frameworks/Technologies',
-        description: 'React, Laravel, GitHub',
+        description:
+          'React, Laravel, Material UI, Tailwind CSS, PostgreSQL, Heroku, Vercel',
       },
       {
         name: 'Engineering',
         description:
-          'Software, Rest API, Machine Learning, Data, Robotics, Automation, PLC, Controls Design',
+          'Software, Full Stack Web Development, Rest APIs, Databases, Robotics, Automation',
       },
     ],
 
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
+      {
+        name: 'Personal Finance Dashboard',
+        description:
+          'A full-stack fintech application built with React/TypeScript frontend and PHP Laravel backend. Features include user authentication, interactive financial dashboard, transaction management, budget planning, and investment portfolio tracking. Built with Material UI and Chart.js for data visualization.',
+        link: 'https://fintecfun-frontend-a0753a40ce39.herokuapp.com',
+      },
       {
         name: 'Forex Trading Algorithm',
         description:
@@ -78,13 +85,13 @@ module.exports = {
       {
         name: 'Full stack | Front end web developer',
         description:
-          'TeamGantt - 2020 to 2023, Worked implementing frontend features and fixes in Typescript (React) in addition to backend PHP REST API development (Laravel).',
+          'TeamGantt - 2020 to 2023, ~4 years, Worked implementing frontend features and fixes in Typescript (React) in addition to backend PHP REST API development (Laravel).',
         link: 'https://www.teamgantt.com/',
       },
       {
         name: 'Controls Engineer',
         description:
-          'Altron Automation and Creative Machining - 2016 to 2020, Worked on electrical design, PLC programming, HMI development, and robotics for manufacturing.',
+          'Altron Automation and Creative Machining - 2016 to 2020, ~4 years, Worked on electrical design, PLC programming, HMI development, and robotics for manufacturing.',
         link: 'https://www.altronautomation.com/',
       },
     ],
