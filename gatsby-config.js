@@ -50,6 +50,12 @@ module.exports = {
         link: 'https://fintecfun-frontend-a0753a40ce39.herokuapp.com',
       },
       {
+        name: 'WeatherMap Explorere - React, Node.js',
+        description:
+          'A full-stack weather map application built with React frontend and NodeJS backend. Integrations with Leaflet.js for map display and Visual Crossing Weather API for weather data.',
+        link: 'https://weather-map-explorer-6d34f443bf21.herokuapp.com/map',
+      },
+      {
         name: 'Forex Trading Algorithm - Clojure',
         description:
           'Designed and developed a sophisticated forex trading algorithm leveraging genetic algorithms and CUDA to optimize financial trading strategies.',
