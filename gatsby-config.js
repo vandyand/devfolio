@@ -49,6 +49,12 @@ module.exports = {
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
+        name: 'RetailShift - Modern Retail Data Platform',
+        description:
+          'Microservices-based platform designed to help retailers transition from legacy point-of-sale systems to a scalable, real-time data architecture. Built with Java (Spring Boot), Node.js, React, Material-UI, and utilizes MongoDB, Redis, and Apache Kafka. Features include real-time inventory tracking, transaction analysis, customer analytics, and system topology visualization.',
+        link: 'http://144.126.212.250/',
+      },
+      {
         name: 'Personal Finance Dashboard - React, TypeScript, Laravel',
         description:
           'Full-stack fintech application with user authentication, interactive dashboards, and financial management tools. Built with React/TypeScript frontend and PHP Laravel backend, featuring responsive design with Material UI and data visualization with Chart.js. Implements RESTful API architecture and secure user authentication.',
@@ -79,8 +85,7 @@ module.exports = {
         link: 'https://www.vandyketravelblog.com/',
       },
       {
-        name:
-          'AI-Powered Meme Generator - JavaScript, OpenAI API Integration',
+        name: 'AI-Powered Meme Generator - JavaScript, OpenAI API Integration',
         description:
           'Web application that generates customized memes based on user input. Integrates with external AI services for image generation and text processing. Demonstrates experience with Generative AI API integration and asynchronous JavaScript.',
         link: 'https://dumb-meme.herokuapp.com/',
