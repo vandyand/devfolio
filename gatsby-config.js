@@ -7,10 +7,10 @@ module.exports = {
     name: 'Andrew Van Dyke',
 
     // Main Site Title
-    title: `Andrew Van Dyke | Engineer & Developer`,
+    title: `Andrew VanDyke | Full Stack Developer`,
 
     // Description that goes under your name in main bio
-    description: `Highly adaptable and experienced engineer with a rich background in software development and robotics engineering.`,
+    description: `Full Stack Developer with 4+ years of experience building web applications with React, TypeScript, PHP, and Laravel. Background in controls engineering provides unique perspective on building reliable systems.`,
 
     email: `vandyand@gmail.com`,
 
@@ -21,61 +21,68 @@ module.exports = {
     linkedin: `https://www.linkedin.com/in/vandyand/`,
 
     // Content of the About Me section
-    about: `Highly adaptable and experienced Engineer with a rich background in software development and robotics engineering. Proficient in developing complex software solutions and automation systems across various industries, including saas, manufacturing, and finance.`,
+    about: `Full Stack Developer with 4+ years of experience building scalable web applications and a background in controls engineering. Proficient in React, TypeScript, PHP/Laravel, and functional programming with Clojure. I excel at bridging complex technical challenges with elegant user experiences, whether building responsive interfaces, optimizing API performance, or implementing data visualization. My engineering background gives me a unique perspective on creating reliable, efficient software systems.`,
 
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {
-        name: 'Programming Languages',
-        description: 'TypeScript, PHP, Python, Clojure',
+        name: 'Frontend Development',
+        description:
+          'React, TypeScript, JavaScript, Redux, HTML5, CSS3, Material UI, Tailwind CSS',
       },
       {
-        name: 'Frameworks/Technologies',
-        description:
-          'React, Laravel, Material UI, Tailwind CSS, PostgreSQL, Heroku, Vercel',
+        name: 'Backend Development',
+        description: 'PHP, Laravel, RESTful APIs, Node.js, Express, Clojure',
       },
       {
-        name: 'Engineering',
+        name: 'Database & Infrastructure',
         description:
-          'Software, Full Stack Web Development, Rest APIs, Databases, Robotics, Automation',
+          'MySQL, PostgreSQL, SQL optimization, Docker, Git, AWS, Heroku, Vercel',
+      },
+      {
+        name: 'Specialized Skills',
+        description:
+          'Functional Programming, Test-Driven Development, Geospatial Visualization, Data Processing',
       },
     ],
 
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Personal Finance Dashboard - React/TypeScript, PHP Laravel',
+        name: 'Personal Finance Dashboard - React, TypeScript, Laravel',
         description:
-          'A full-stack fintech application built with React/TypeScript frontend and PHP Laravel backend. Features include user authentication, interactive financial dashboard, transaction management, budget planning, and investment portfolio tracking. Built with Material UI and Chart.js for data visualization.',
+          'Full-stack fintech application with user authentication, interactive dashboards, and financial management tools. Built with React/TypeScript frontend and PHP Laravel backend, featuring responsive design with Material UI and data visualization with Chart.js. Implements RESTful API architecture and secure user authentication.',
         link: 'https://fintecfun-frontend-a0753a40ce39.herokuapp.com',
       },
       {
-        name: 'WeatherMap Explorere - React, Node.js',
+        name: 'Weather Map Explorer - React, Node.js, Geospatial Data',
         description:
-          'A full-stack weather map application built with React frontend and NodeJS backend. Integrations with Leaflet.js for map display and Visual Crossing Weather API for weather data.',
+          'Interactive geospatial application showcasing weather data visualization. Built with React and integrates with Leaflet.js for mapping functionality and Visual Crossing weather API demonstrating experience with geospatial data processing and visualization.',
         link: 'https://weather-map-explorer-6d34f443bf21.herokuapp.com/map',
       },
       {
-        name: 'Forex Trading Algorithm - Clojure',
+        name: 'Clojure Trader - Functional Programming, Algorithmic Trading',
         description:
-          'Designed and developed a sophisticated forex trading algorithm leveraging genetic algorithms and CUDA to optimize financial trading strategies.',
+          'Advanced trading framework built with Clojure that leverages functional programming techniques and genetic algorithms to optimize trading strategies. Implements pure functions, immutable data structures, and asynchronous workflows for data processing and analysis. Demonstrates experience with functional programming paradigms and complex data processing.',
         link: 'https://github.com/vandyand/clojure-trader',
       },
       {
-        name: 'Kikker Stickers Website - Vanilla HTML/CSS/JS',
+        name: 'Kikker Stickers E-commerce - JavaScript, Snipcart Integration',
         description:
-          "Built and hosted a simple ecommerce website with snipcart integration for my friend's decal sticker business.",
+          'Designed and developed a custom e-commerce website with shopping cart functionality and payment processing integration using Snipcart. Features responsive design, product catalog management, and streamlined checkout process.',
         link: 'https://kikkerstickers.com/',
       },
       {
-        name: 'Van Dyke Travel Blog - Vanilla HTML/CSS/JS',
+        name: 'Van Dyke Travel Blog - HTML, CSS, JavaScript',
         description:
-          'Our family had fun exploring the south and west during winter 2023-2024',
+          'Responsive travel blog with content management capabilities. Designed with mobile-first approach and optimized for performance across devices.',
         link: 'https://www.vandyketravelblog.com/',
       },
       {
-        name: 'Meme Generator - Vanilla HTML/CSS/JS',
-        description: 'Input description, get a meme!',
+        name:
+          'AI-Powered Meme Generator - JavaScript, OpenAI API Integration',
+        description:
+          'Web application that generates customized memes based on user input. Integrates with external AI services for image generation and text processing. Demonstrates experience with Generative AI API integration and asynchronous JavaScript.',
         link: 'https://dumb-meme.herokuapp.com/',
       },
     ],
@@ -85,19 +92,19 @@ module.exports = {
       {
         name: 'Controls Engineer II',
         description:
-          'Extol Inc. - 2024 (present), Working on electrical design and PLC and Robotics programming for plastic welding manufacturing processes.',
+          'Extol Inc. (2024-present): Designing and programming control systems for plastics manufacturing equipment. Developing PLC systems and collaborating with engineers to implement reliable automation solutions for customers.',
         link: 'https://www.extolinc.com/',
       },
       {
-        name: 'Full stack | Front end web developer',
+        name: 'Software Engineer',
         description:
-          'TeamGantt - 2020 to 2023, ~4 years, Worked implementing frontend features and fixes in Typescript (React) in addition to backend PHP REST API development (Laravel).',
+          'TeamGantt (2020-2023): Built and maintained features for a SaaS project management platform using React/TypeScript frontend and PHP/Laravel backend services. Contributed to the Clojure codebase for data processing needs, and collaborated with team members in a fully remote agile environment using Git/GitHub.',
         link: 'https://www.teamgantt.com/',
       },
       {
         name: 'Controls Engineer',
         description:
-          'Altron Automation and Creative Machining - 2016 to 2020, ~4 years, Worked on electrical design, PLC programming, HMI development, and robotics for manufacturing.',
+          'Altron Automation (2016-2020): Designed electrical schematics and programmed PLCs for manufacturing automation systems. Worked on routing, adhesive dispensing, and material handling applications. Integrated robots into production lines and collaborated with mechanical engineers to deliver solutions that met client requirements.',
         link: 'https://www.altronautomation.com/',
       },
     ],
