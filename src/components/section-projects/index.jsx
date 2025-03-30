@@ -8,14 +8,17 @@ const SectionProjects = ({ projects }) => {
 
   return (
     <Section title="Projects">
-      {projects.map((project) => (
-        <SummaryItem
-          key={project.name}
-          name={project.name}
-          description={project.description}
-          link={project.link}
-        />
-      ))}
+      <div className="grid gap-4 grid-cols-1 md:grid-cols-2">
+        {projects.map((project) => (
+          <SummaryItem
+            key={project.name}
+            name={project.name}
+            description={project.description}
+            subtitle={project.subtitle}
+            link={project.link}
+          />
+        ))}
+      </div>
     </Section>
   );
 };

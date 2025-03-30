@@ -49,45 +49,53 @@ module.exports = {
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'RetailShift - Modern Retail Data Platform',
+        name: 'RetailShift',
+        subtitle:
+          'Java (Spring Boot), Node.js, React, Material-UI, MongoDB, Kafka',
         description:
-          'Microservices-based platform designed to help retailers transition from legacy point-of-sale systems to a scalable, real-time data architecture. Built with Java (Spring Boot), Node.js, React, Material-UI, and utilizes MongoDB, Redis, and Apache Kafka. Features include real-time inventory tracking, transaction analysis, customer analytics, and system topology visualization.',
+          'Microservices-based platform designed to help retailers transition from legacy point-of-sale systems to a scalable, real-time data architecture. Features include real-time inventory tracking, transaction analysis, customer analytics, and system topology visualization.',
         link: 'http://144.126.212.250/',
       },
       {
-        name: 'Personal Finance Dashboard - React, TypeScript, Laravel',
+        name: 'Personal Finance Dashboard',
+        subtitle: 'React, TypeScript, Laravel, Material UI, PostgreSQL',
         description:
-          'Full-stack fintech application with user authentication, interactive dashboards, and financial management tools. Built with React/TypeScript frontend and PHP Laravel backend, featuring responsive design with Material UI and data visualization with Chart.js. Implements RESTful API architecture and secure user authentication.',
+          'Full-stack fintech application with user authentication, interactive dashboards, and financial management tools. Implements RESTful API architecture and secure user authentication with data visualization for financial metrics.',
         link: 'https://fintecfun-frontend-a0753a40ce39.herokuapp.com',
       },
       {
-        name: 'Weather Map Explorer - React, Node.js, Geospatial Data',
+        name: 'Weather Map Explorer',
+        subtitle: 'React, Node.js, Leaflet.js, Geospatial APIs',
         description:
-          'Interactive geospatial application showcasing weather data visualization. Built with React and integrates with Leaflet.js for mapping functionality and Visual Crossing weather API demonstrating experience with geospatial data processing and visualization.',
+          'Interactive geospatial application showcasing weather data visualization. Integrates with mapping functionality and weather APIs demonstrating experience with geospatial data processing and visualization.',
         link: 'https://weather-map-explorer-6d34f443bf21.herokuapp.com/map',
       },
       {
-        name: 'Clojure Trader - Functional Programming, Algorithmic Trading',
+        name: 'Clojure Trader',
+        subtitle: 'Clojure, Functional Programming, Genetic Algorithms',
         description:
-          'Advanced trading framework built with Clojure that leverages functional programming techniques and genetic algorithms to optimize trading strategies. Implements pure functions, immutable data structures, and asynchronous workflows for data processing and analysis. Demonstrates experience with functional programming paradigms and complex data processing.',
+          'Advanced trading framework that leverages functional programming techniques and genetic algorithms to optimize trading strategies. Implements pure functions, immutable data structures, and asynchronous workflows for data processing and analysis.',
         link: 'https://github.com/vandyand/clojure-trader',
       },
       {
-        name: 'Kikker Stickers E-commerce - JavaScript, Snipcart Integration',
+        name: 'Kikker Stickers E-commerce',
+        subtitle: 'JavaScript, Snipcart Integration, Responsive Design',
         description:
-          'Designed and developed a custom e-commerce website with shopping cart functionality and payment processing integration using Snipcart. Features responsive design, product catalog management, and streamlined checkout process.',
+          'Designed and developed a custom e-commerce website with shopping cart functionality and payment processing integration using Snipcart. Features product catalog management and streamlined checkout process.',
         link: 'https://kikkerstickers.com/',
       },
       {
-        name: 'Van Dyke Travel Blog - HTML, CSS, JavaScript',
+        name: 'Van Dyke Travel Blog',
+        subtitle: 'HTML, CSS, JavaScript, Mobile-First Design',
         description:
           'Responsive travel blog with content management capabilities. Designed with mobile-first approach and optimized for performance across devices.',
         link: 'https://www.vandyketravelblog.com/',
       },
       {
-        name: 'AI-Powered Meme Generator - JavaScript, OpenAI API Integration',
+        name: 'AI-Powered Meme Generator',
+        subtitle: 'JavaScript, OpenAI API Integration, Async Programming',
         description:
-          'Web application that generates customized memes based on user input. Integrates with external AI services for image generation and text processing. Demonstrates experience with Generative AI API integration and asynchronous JavaScript.',
+          'Web application that generates customized memes based on user input. Integrates with external AI services for image generation and text processing.',
         link: 'https://dumb-meme.herokuapp.com/',
       },
     ],
@@ -96,20 +104,23 @@ module.exports = {
     experience: [
       {
         name: 'Controls Engineer II',
+        subtitle: 'Extol Inc. (2024-present)',
         description:
-          'Extol Inc. (2024-present): Designing and programming control systems for plastics manufacturing equipment. Developing PLC systems and collaborating with engineers to implement reliable automation solutions for customers.',
+          'Designing and programming control systems for plastics manufacturing equipment. Developing PLC systems and collaborating with engineers to implement reliable automation solutions for customers.',
         link: 'https://www.extolinc.com/',
       },
       {
         name: 'Software Engineer',
+        subtitle: 'TeamGantt (2020-2023)',
         description:
-          'TeamGantt (2020-2023): Built and maintained features for a SaaS project management platform using React/TypeScript frontend and PHP/Laravel backend services. Contributed to the Clojure codebase for data processing needs, and collaborated with team members in a fully remote agile environment using Git/GitHub.',
+          'Built and maintained features for a SaaS project management platform using React/TypeScript frontend and PHP/Laravel backend services. Contributed to the Clojure codebase for data processing needs, and collaborated with team members in a fully remote agile environment using Git/GitHub.',
         link: 'https://www.teamgantt.com/',
       },
       {
         name: 'Controls Engineer',
+        subtitle: 'Altron Automation (2016-2020)',
         description:
-          'Altron Automation (2016-2020): Designed electrical schematics and programmed PLCs for manufacturing automation systems. Worked on routing, adhesive dispensing, and material handling applications. Integrated robots into production lines and collaborated with mechanical engineers to deliver solutions that met client requirements.',
+          'Designed electrical schematics and programmed PLCs for manufacturing automation systems. Worked on routing, adhesive dispensing, and material handling applications. Integrated robots into production lines and collaborated with mechanical engineers to deliver solutions that met client requirements.',
         link: 'https://www.altronautomation.com/',
       },
     ],
