@@ -54,7 +54,7 @@ module.exports = {
           'Python, Streamlit, Plotly, Pandas',
         description:
           'Visualizes backtesting results from an algorithmic trading research system. Displays out-of-sample equity curves, strategy comparisons, and per-window metrics across TCN, MLP, and rule-based strategies using walk-forward optimization — no look-ahead bias.',
-        link: 'https://github.com/vandyand/algo-trading-wfo-dashboard',
+        link: 'https://algo-trading-wfo-dashboard.streamlit.app/',
       },
       {
         name: 'Multi-Agent Wellness Chatbot',
@@ -62,7 +62,7 @@ module.exports = {
           'Python, OpenAI Responses API, Streamlit, JSON Schema',
         description:
           'Intelligent multi-personality chatbot with agent routing and shared conversation context. A router agent analyzes each message and selects from four wellness specialists (Coach, Chef, Sage, Doc), with cross-character awareness through shared conversation memory.',
-        link: 'https://github.com/vandyand/multi-agent-chatbot',
+        link: 'https://multi-agent-chatbot-demo.streamlit.app/',
       },
       {
         name: 'Multi-Agent Research Pipeline',
@@ -70,7 +70,7 @@ module.exports = {
           'Python, OpenAI Responses API, Streamlit, JSON Schema',
         description:
           'Collaborative AI pipeline where three agents — Researcher, Writer, and Critic — produce and refine articles via schema-driven structured output. Demonstrates multi-turn agent coordination with a revision loop, using strict JSON schemas as contracts between agents with no glue code.',
-        link: 'https://github.com/vandyand/multi-agent-pipeline',
+        link: 'https://multi-agent-pipeline.streamlit.app/',
       },
       {
         name: 'RetailShift',
