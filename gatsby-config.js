@@ -49,6 +49,30 @@ module.exports = {
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
+        name: 'Walk-Forward Optimization Dashboard',
+        subtitle:
+          'Python, Streamlit, Plotly, Pandas',
+        description:
+          'Visualizes backtesting results from an algorithmic trading research system. Displays out-of-sample equity curves, strategy comparisons, and per-window metrics across TCN, MLP, and rule-based strategies using walk-forward optimization — no look-ahead bias.',
+        link: 'https://github.com/vandyand/algo-trading-wfo-dashboard',
+      },
+      {
+        name: 'Multi-Agent Wellness Chatbot',
+        subtitle:
+          'Python, OpenAI Responses API, Streamlit, JSON Schema',
+        description:
+          'Intelligent multi-personality chatbot with agent routing and shared conversation context. A router agent analyzes each message and selects from four wellness specialists (Coach, Chef, Sage, Doc), with cross-character awareness through shared conversation memory.',
+        link: 'https://github.com/vandyand/multi-agent-chatbot',
+      },
+      {
+        name: 'Multi-Agent Research Pipeline',
+        subtitle:
+          'Python, OpenAI Responses API, Streamlit, JSON Schema',
+        description:
+          'Collaborative AI pipeline where three agents — Researcher, Writer, and Critic — produce and refine articles via schema-driven structured output. Demonstrates multi-turn agent coordination with a revision loop, using strict JSON schemas as contracts between agents with no glue code.',
+        link: 'https://github.com/vandyand/multi-agent-pipeline',
+      },
+      {
         name: 'RetailShift',
         subtitle:
           'Java (Spring Boot), Node.js, React, Material-UI, MongoDB, Kafka',
