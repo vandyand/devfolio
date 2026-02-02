@@ -73,14 +73,6 @@ module.exports = {
         link: 'https://multi-agent-pipeline.streamlit.app/',
       },
       {
-        name: 'RetailShift',
-        subtitle:
-          'Java (Spring Boot), Node.js, React, Material-UI, MongoDB, Kafka',
-        description:
-          'Microservices-based platform designed to help retailers transition from legacy point-of-sale systems to a scalable, real-time data architecture. Features include real-time inventory tracking, transaction analysis, customer analytics, and system topology visualization.',
-        link: 'http://144.126.212.250/',
-      },
-      {
         name: 'Personal Finance Dashboard',
         subtitle: 'React, TypeScript, Laravel, Material UI, PostgreSQL',
         description:
