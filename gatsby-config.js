@@ -73,6 +73,13 @@ module.exports = {
         link: 'https://multi-agent-pipeline.streamlit.app/',
       },
       {
+        name: 'Agentic Workflow Engine',
+        subtitle: 'Python, Streamlit, JSON Schema, DAG Execution',
+        description:
+          'Schema-driven workflow orchestration engine for AI applications. Chains HTTP requests, data transforms, and LLM calls with typed inputs/outputs, dependency resolution via topological ordering, and built-in error handling with retries and fallbacks.',
+        link: 'https://agentic-workflow-engine.streamlit.app/',
+      },
+      {
         name: 'Personal Finance Dashboard',
         subtitle: 'React, TypeScript, Laravel, Material UI, PostgreSQL',
         description:
