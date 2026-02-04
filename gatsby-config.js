@@ -130,7 +130,7 @@ module.exports = {
         subtitle: 'Upwork (Jan 2025 - present)',
         description:
           'Freelance contractor specializing in AI/ML development, full-stack web applications, and algorithmic trading systems. Building agentic workflows, multi-agent systems, and data-driven applications for clients.',
-        link: 'https://www.upwork.com/',
+        link: 'https://www.upwork.com/freelancers/vandyand',
       },
       {
         name: 'Controls Engineer II',
