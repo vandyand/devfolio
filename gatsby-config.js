@@ -126,10 +126,17 @@ module.exports = {
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Controls Engineer II',
-        subtitle: 'Extol Inc. (2024-present)',
+        name: 'AI/ML/Fullstack Contractor',
+        subtitle: 'Upwork (Jan 2025 - present)',
         description:
-          'Designing and programming control systems for plastics manufacturing equipment. Developing PLC systems and collaborating with engineers to implement reliable automation solutions for customers.',
+          'Freelance contractor specializing in AI/ML development, full-stack web applications, and algorithmic trading systems. Building agentic workflows, multi-agent systems, and data-driven applications for clients.',
+        link: 'https://www.upwork.com/',
+      },
+      {
+        name: 'Controls Engineer II',
+        subtitle: 'Extol Inc. (2024-2025)',
+        description:
+          'Designed and programmed control systems for plastics manufacturing equipment. Developed PLC systems and collaborated with engineers to implement reliable automation solutions for customers.',
         link: 'https://www.extolinc.com/',
       },
       {
