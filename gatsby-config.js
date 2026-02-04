@@ -49,6 +49,13 @@ module.exports = {
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
+        name: 'Agentic Workflow Engine',
+        subtitle: 'Python, Streamlit, JSON Schema, DAG Execution',
+        description:
+          'Schema-driven workflow orchestration engine for AI applications. Chains HTTP requests, data transforms, and LLM calls with typed inputs/outputs, dependency resolution via topological ordering, and built-in error handling with retries and fallbacks.',
+        link: 'https://agentic-workflow-engine.streamlit.app/',
+      },
+      {
         name: 'Walk-Forward Optimization Dashboard',
         subtitle:
           'Python, Streamlit, Plotly, Pandas',
@@ -71,13 +78,6 @@ module.exports = {
         description:
           'Collaborative AI pipeline where three agents — Researcher, Writer, and Critic — produce and refine articles via schema-driven structured output. Demonstrates multi-turn agent coordination with a revision loop, using strict JSON schemas as contracts between agents with no glue code.',
         link: 'https://multi-agent-pipeline.streamlit.app/',
-      },
-      {
-        name: 'Agentic Workflow Engine',
-        subtitle: 'Python, Streamlit, JSON Schema, DAG Execution',
-        description:
-          'Schema-driven workflow orchestration engine for AI applications. Chains HTTP requests, data transforms, and LLM calls with typed inputs/outputs, dependency resolution via topological ordering, and built-in error handling with retries and fallbacks.',
-        link: 'https://agentic-workflow-engine.streamlit.app/',
       },
       {
         name: 'Personal Finance Dashboard',
