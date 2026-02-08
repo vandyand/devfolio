@@ -19,10 +19,10 @@ Highly adaptable and experienced Engineer with a rich background in software dev
 Here are some of the projects I've worked on:
 
 - **[RetailShift - Modern Retail Data Platform](http://144.126.212.250/)**: Microservices-based platform designed to help retailers transition from legacy POS systems to a scalable, real-time data architecture. Built with Java (Spring Boot), Node.js, React, and utilizes MongoDB, Redis, and Apache Kafka.
-- **[Personal Finance Dashboard](https://fintecfun-frontend-a0753a40ce39.herokuapp.com)**: A full-stack fintech application built with React/TypeScript frontend and PHP Laravel backend. Features include user authentication, interactive financial dashboard, transaction management, budget planning, and investment portfolio tracking.
+- **[Personal Finance Dashboard](https://fintecfun-frontend.vercel.app)**: A full-stack fintech application built with React/TypeScript frontend and PHP Laravel backend. Features include user authentication, interactive financial dashboard, transaction management, budget planning, and investment portfolio tracking.
 - **[Forex Trading Algorithm](https://github.com/vandyand/clojure-trader)**: Designed and developed a sophisticated forex trading algorithm leveraging genetic algorithms and CUDA to optimize financial trading strategies.
 - **[Van Dyke Travel Blog](https://www.vandyketravelblog.com/)**: Our family had fun exploring the south and west winter 2023-2024
-- **[Meme Generator](https://dumb-meme.herokuapp.com/)**: Input description, get a meme!
+- **[Meme Generator](https://dumb-meme.vercel.app/)**: Input description, get a meme!
 
 ## Experience
 

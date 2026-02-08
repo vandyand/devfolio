@@ -84,14 +84,14 @@ module.exports = {
         subtitle: 'React, TypeScript, Laravel, Material UI, PostgreSQL',
         description:
           'Full-stack fintech application with user authentication, interactive dashboards, and financial management tools. Implements RESTful API architecture and secure user authentication with data visualization for financial metrics.',
-        link: 'https://fintecfun-frontend-a0753a40ce39.herokuapp.com',
+        link: 'https://fintecfun-frontend.vercel.app',
       },
       {
         name: 'Weather Map Explorer',
         subtitle: 'React, Node.js, Leaflet.js, Geospatial APIs',
         description:
           'Interactive geospatial application showcasing weather data visualization. Integrates with mapping functionality and weather APIs demonstrating experience with geospatial data processing and visualization.',
-        link: 'https://weather-map-explorer-6d34f443bf21.herokuapp.com/map',
+        link: 'https://weather-map-explorer.vercel.app/map',
       },
       {
         name: 'Clojure Trader',
@@ -119,7 +119,7 @@ module.exports = {
         subtitle: 'JavaScript, OpenAI API Integration, Async Programming',
         description:
           'Web application that generates customized memes based on user input. Integrates with external AI services for image generation and text processing.',
-        link: 'https://dumb-meme.herokuapp.com/',
+        link: 'https://dumb-meme.vercel.app/',
       },
     ],
 
