@@ -105,7 +105,7 @@ module.exports = {
         subtitle: 'JavaScript, Snipcart Integration, Responsive Design',
         description:
           'Designed and developed a custom e-commerce website with shopping cart functionality and payment processing integration using Snipcart. Features product catalog management and streamlined checkout process.',
-        link: 'https://kikkerstickers.com/',
+        link: 'https://kikker-sticker.vercel.app/',
       },
       {
         name: 'Van Dyke Travel Blog',
