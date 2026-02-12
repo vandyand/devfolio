@@ -108,13 +108,6 @@ module.exports = {
         link: 'https://github.com/vandyand/clojure-trader',
       },
       {
-        name: 'Kikker Stickers E-commerce',
-        subtitle: 'JavaScript, Snipcart Integration, Responsive Design',
-        description:
-          'Designed and developed a custom e-commerce website with shopping cart functionality and payment processing integration using Snipcart. Features product catalog management and streamlined checkout process.',
-        link: 'https://kikker-sticker.vercel.app/',
-      },
-      {
         name: 'Van Dyke Travel Blog',
         subtitle: 'HTML, CSS, JavaScript, Mobile-First Design',
         description:
