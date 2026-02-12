@@ -64,34 +64,34 @@ module.exports = {
       },
       {
         name: 'Agentic Workflow Engine',
-        subtitle: 'Python, Streamlit, JSON Schema, DAG Execution',
+        subtitle: 'Next.js, TypeScript, Tailwind CSS, DAG Execution',
         description:
           'Schema-driven workflow orchestration engine for AI applications. Chains HTTP requests, data transforms, and LLM calls with typed inputs/outputs, dependency resolution via topological ordering, and built-in error handling with retries and fallbacks.',
-        link: 'https://agentic-workflow-engine.streamlit.app/',
+        link: 'https://agentic-workflow-engine.vercel.app/',
       },
       {
         name: 'Walk-Forward Optimization Dashboard',
         subtitle:
-          'Python, Streamlit, Plotly, Pandas',
+          'Next.js, TypeScript, Recharts, Tailwind CSS',
         description:
           'Visualizes backtesting results from an algorithmic trading research system. Displays out-of-sample equity curves, strategy comparisons, and per-window metrics across TCN, MLP, and rule-based strategies using walk-forward optimization — no look-ahead bias.',
-        link: 'https://algo-trading-wfo-dashboard.streamlit.app/',
+        link: 'https://algo-trading-wfo-dashboard.vercel.app/',
       },
       {
         name: 'Multi-Agent Wellness Chatbot',
         subtitle:
-          'Python, OpenAI Responses API, Streamlit, JSON Schema',
+          'Next.js, TypeScript, OpenAI API, Tailwind CSS',
         description:
           'Intelligent multi-personality chatbot with agent routing and shared conversation context. A router agent analyzes each message and selects from four wellness specialists (Coach, Chef, Sage, Doc), with cross-character awareness through shared conversation memory.',
-        link: 'https://multi-agent-chatbot-demo.streamlit.app/',
+        link: 'https://wellness-crew-chat.vercel.app/',
       },
       {
         name: 'Multi-Agent Research Pipeline',
         subtitle:
-          'Python, OpenAI Responses API, Streamlit, JSON Schema',
+          'Next.js, TypeScript, OpenAI API, Tailwind CSS',
         description:
           'Collaborative AI pipeline where three agents — Researcher, Writer, and Critic — produce and refine articles via schema-driven structured output. Demonstrates multi-turn agent coordination with a revision loop, using strict JSON schemas as contracts between agents with no glue code.',
-        link: 'https://multi-agent-pipeline.streamlit.app/',
+        link: 'https://multi-agent-research-pipeline.vercel.app/',
       },
       {
         name: 'Personal Finance Dashboard',
