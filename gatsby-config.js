@@ -49,6 +49,13 @@ module.exports = {
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
+        name: 'Marble World Studio',
+        subtitle: 'Next.js, React, Three.js, Prisma, PostgreSQL, Stripe',
+        description:
+          'Full-stack 3D world generation platform built on the World Labs API. Users create immersive 3D environments from text, images, or video, then explore them in-browser with interactive Gaussian splat rendering. Features credit-based monetization via Stripe, async job processing with Inngest, and cinematic video export with FFmpeg.',
+        link: 'https://marbleworld.studio',
+      },
+      {
         name: 'Agentic Workflow Engine',
         subtitle: 'Python, Streamlit, JSON Schema, DAG Execution',
         description:
