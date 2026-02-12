@@ -108,13 +108,6 @@ module.exports = {
         link: 'https://weather-map-explorer.vercel.app/map',
       },
       {
-        name: 'Clojure Trader',
-        subtitle: 'Clojure, Functional Programming, Genetic Algorithms',
-        description:
-          'Advanced trading framework that leverages functional programming techniques and genetic algorithms to optimize trading strategies. Implements pure functions, immutable data structures, and asynchronous workflows for data processing and analysis.',
-        link: 'https://github.com/vandyand/clojure-trader',
-      },
-      {
         name: 'Van Dyke Travel Blog',
         subtitle: 'HTML, CSS, JavaScript, Mobile-First Design',
         description:
