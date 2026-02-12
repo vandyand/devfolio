@@ -52,8 +52,15 @@ module.exports = {
         name: 'Marble World Studio',
         subtitle: 'Next.js, React, Three.js, Prisma, PostgreSQL, Stripe',
         description:
-          'Full-stack 3D world generation platform built on the World Labs API. Users create immersive 3D environments from text, images, or video, then explore them in-browser with interactive Gaussian splat rendering. Features credit-based monetization via Stripe, async job processing with Inngest, and cinematic video export with FFmpeg.',
+          'SaaS platform that generates explorable 3D worlds using World Labs\' AI models. Users create immersive environments from text prompts, images, or video, then navigate them in-browser with real-time camera controls. Features two AI model tiers (Mini and Plus), credit-based pricing via Stripe, downloadable assets (Gaussian splats, meshes, panoramas), shareable browser links.',
         link: 'https://marbleworld.studio',
+      },
+      {
+        name: 'I Wish There Was...',
+        subtitle: 'Next.js, React, Vercel, Authentication',
+        description:
+          'Community-driven product discovery platform where users post, upvote, and discuss wishes for products they want to exist. Features user authentication, real-time upvoting, threaded comments, search, and sorting by newest, most upvoted, or most discussed. Built to connect people who have problems with builders who want to solve them.',
+        link: 'https://iwishtherewas.xyz/',
       },
       {
         name: 'Agentic Workflow Engine',
