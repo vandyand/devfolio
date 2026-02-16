@@ -49,6 +49,13 @@ module.exports = {
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
+        name: 'Algorithmic Trading Dashboard',
+        subtitle: 'Next.js, Python, OANDA API, Alpaca API, TradingView, Vercel',
+        description:
+          'Live performance dashboard for three algorithmic trading systems — OANDA Forex (20 instruments), Alpaca Equities, and Solana Altmemecoins. Displays real-time NAV curves, daily returns, Sharpe/Sortino ratios, max drawdown, open positions, and risk metrics. Powered by TCN + Actor-Critic RL models with daily position sizing. Updated every 5 minutes.',
+        link: 'https://avd-trading-dashboard.vercel.app',
+      },
+      {
         name: 'Marble World Studio',
         subtitle: 'Next.js, React, Three.js, Prisma, PostgreSQL, Stripe',
         description:
